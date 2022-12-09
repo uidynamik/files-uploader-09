@@ -1,0 +1,61 @@
+.progress-section {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 1rem;
+    max-height: 200px;
+    box-sizing: border-box;
+    padding: 5px;
+    overflow-y: auto;
+}
+
+.progress-container {
+    width: 100%;
+    margin: auto;
+    margin-bottom: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #f5faff;
+    box-sizing: border-box;
+}
+
+.upload-description {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.7rem;
+}
+
+.upload-description .file-name {
+    font-weight: 600;
+    max-width: 260px;
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.upload-description .file-size {
+    color: gray;
+}
+
+.progress-wrapper {
+    background-color: #e7e7e7;
+    width: 100%;
+    box-sizing: border-box;
+    height: 7px;
+    border-radius: 3px;
+    margin-top: 5px;
+}
+
+.progress-wrapper .progress-bar {
+    height: 100%;
+    background-color: #0078f7;
+    border-radius: 3px;
+    transition: width .3s;
+}
+
+.progress-container .upload-single-button {
+    color: #0078f7;
+    font-size: 0.7rem;
+    margin-left: 5px;
+    padding: 0;
+}

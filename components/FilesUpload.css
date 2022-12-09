@@ -1,0 +1,65 @@
+button {
+  outline: none;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.files-upload-card {
+  width: 24rem;
+  background-color: #fff;
+  border-radius: 10px;
+  color: #1d1d1d;
+}
+
+.files-upload-card .title-section {
+  background-color: #0078f7;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  box-sizing: border-box;
+  padding: 0 20px;
+  height: 60px;
+}
+
+.files-upload-title {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.files-upload-card .close-button {
+  color: #a5cef9;
+  font-size: 1.4rem;
+}
+
+.base-button-wrapper {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.upload-all-button {
+  background-color: #0076f5;
+  color: #ffffff;
+  text-transform: uppercase;
+  width: 8rem;
+  padding: 8px 0;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(183, 183, 184, 0.3);
+}
+
+.clear-button {
+  background-color: #e7e7e7;
+  color: gray;
+  text-transform: uppercase;
+  width: 8rem;
+  padding: 8px 0;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 118, 245, 0.3);
+}
