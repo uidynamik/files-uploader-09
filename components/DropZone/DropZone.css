@@ -1,28 +1,28 @@
 .upload-zone {
-    width: 90%;
-    margin: 2rem auto 1rem auto;
-    height: 150px;
-    box-sizing: border-box;
-    border: 3px dashed #e7e7e7;
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  width: 90%;
+  margin: 2rem auto 1rem auto;
+  height: 150px;
+  box-sizing: border-box;
+  border: 3px dashed #e7e7e7;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .upload-zone h3 {
-    font-size: large;
-    font-weight: 700;
-    color: gray;
+  font-size: large;
+  font-weight: 700;
+  color: #808080;
 }
 
 .upload-zone .browse-button {
-    color: #0078f7;
-    font-size: large;
-    font-weight: 700;
+  color: #0078f7;
+  font-size: large;
+  font-weight: 700;
 }
 
 .is-dragging {
-    background-color: #e4f1ff;
+  background-color: #e4f1ff;
 }
